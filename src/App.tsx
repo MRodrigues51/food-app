@@ -1,8 +1,13 @@
+import { Router } from "./Router";
+import { BrowserRouter } from 'react-router-dom'
 
 export function App() {
 
   return (
-    <h1>Food App</h1>
+    <BrowserRouter>
+      <Router />
+    </BrowserRouter>
+
   )
 }
 
