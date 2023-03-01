@@ -1,0 +1,106 @@
+{
+  "burgers": [
+    {
+      "id": 1,
+      "snack": "burger",
+      "name": "Mega",
+      "description": "O artesanal tamanho família recheado com três carnes suculentas, queijo e bacon.",
+      "price": 25.5,
+      "image": "https://images.unsplash.com/photo-1595531172949-30922c28a240?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    },
+    {
+      "id": 2,
+      "snack": "burger",
+      "name": "Extra bacon",
+      "description": "Criado para os amantes de bacon, possui em todas as suas camadas bacon bem assado e ainda queijo e carne.",
+      "price": 23.5,
+      "image": "https://images.unsplash.com/photo-1561758033-f8ff74d6494a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    },
+    {
+      "id": 3,
+      "snack": "burger",
+      "name": "Especial",
+      "description": "O especial tem tudo aquilo que te faz se apaixonar por ele. Prove e nunca mais terá dúvidas em qual hamburguer pedir",
+      "price": 26.5,
+      "image": "https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=815&q=80"
+    }
+  ],
+  "pizzas": [
+    {
+      "id": 1,
+      "snack": "pizza",
+      "name": "Pepperoni",
+      "description": "Recheada com pepperonni e queijo",
+      "price": 25,
+      "image": "https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80"
+    },
+    {
+      "id": 2,
+      "snack": "pizza",
+      "name": "4 queijos",
+      "description": "Recheada com muzzarela, provolone, parmesão e gorgonzola",
+      "price": 30,
+      "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    },
+    {
+      "id": 3,
+      "snack": "pizza",
+      "name": "Vegetariana",
+      "description": "Recheada com queijo e vegetais",
+      "price": 27,
+      "image": "https://images.unsplash.com/photo-1590947132387-155cc02f3212?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    }
+  ],
+  "ice-creams": [
+    {
+      "id": 1,
+      "snack": "ice-cream",
+      "name": "Casquinha",
+      "description": "A casquinha crocante e saborosa que nossos clientes amam",
+      "price": 4.5,
+      "image": "https://images.unsplash.com/photo-1505616485412-adfcd5561e31?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    },
+    {
+      "id": 2,
+      "snack": "ice-cream",
+      "name": "Chocolate com granulado",
+      "description": "Sorvete de chocolate com granulados para você se deliciar",
+      "price": 6,
+      "image": "https://images.unsplash.com/photo-1597648152428-f883fbc9c873?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    },
+    {
+      "id": 3,
+      "snack": "ice-cream",
+      "name": "Morango",
+      "description": "Sorvete de morango, cremoso e com pedacinhos da fruta",
+      "price": 7,
+      "image": "https://images.unsplash.com/photo-1566746878854-d4f4fbd11941?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80"
+    }
+  ],
+  "drinks": [
+    {
+      "id": 1,
+      "snack": "drink",
+      "name": "Coca-Cola",
+      "description": "A tradicional Coca-Cola que a família brasileira adora",
+      "price": 5,
+      "image": "https://images.unsplash.com/photo-1566560155396-7b9f35a08308?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
+    },
+    {
+      "id": 2,
+      "snack": "drink",
+      "name": "Suco de Laranja",
+      "description": "Delicioso suco de laranja",
+      "price": 6.50,
+      "image": "https://images.unsplash.com/photo-1524439786248-e168955562d7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1476&q=80"
+    },
+    {
+      "id": 3,
+      "snack": "drink",
+      "name": "Energético",
+      "description": "Um energético para dar aquele gás no seu dia",
+      "price": 10.50,
+      "image": "https://images.unsplash.com/photo-1649261191597-4251e0bdf193?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    }
+  ]
+}
