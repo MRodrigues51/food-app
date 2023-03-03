@@ -9,7 +9,9 @@ export function Home() {
     <Container>
       <Sidebar />
       <section>
-        <img src={LogoImg} alt="" />
+        <div>
+          <img src={LogoImg} alt="" />
+        </div>
         <Outlet />
       </section>
 
