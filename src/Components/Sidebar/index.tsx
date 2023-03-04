@@ -1,11 +1,12 @@
+import React from 'react'
 import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import { Container } from './styles'
-import { ReactComponent as BurgerIcon } from '../../assets/burger.svg'
-import { ReactComponent as PizzaIcon } from '../../assets/pizza.svg'
-import { ReactComponent as SodaPopIcon } from '../../assets/soda.svg'
-import { ReactComponent as IceCreamIcon } from '../../assets/ice-cream.svg'
 import menuImg from '../../assets/menu.svg'
+import BurgerIcon from '../../assets/Icons/BurgerIcon'
+import PizzaIcon from '../../assets/Icons/PizzaIcon'
+import DrinkIcon from '../../assets/Icons/DrinkIcon'
+import IceCreamIcon from '../../assets/Icons/IceCream'
 
 export function Sidebar() {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -39,7 +40,7 @@ export function Sidebar() {
           </li>
           <li>
             <NavLink to='drinks'>
-              <SodaPopIcon />
+              <DrinkIcon />
               <span>
                 Bebidas
               </span>
