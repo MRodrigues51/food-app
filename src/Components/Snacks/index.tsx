@@ -12,9 +12,10 @@ interface SnacksProps {
 export function Snacks({ snacks }: SnacksProps) {
   return (
     <Container>
-      {!snacks.length ? (
-        [1, 2, 3, 4].map((n) => <SkeletonSnack key={n} />)
-      ) : (
+      {
+        // !snacks.length ? (
+        //   [1, 2, 3, 4].map((n) => <SkeletonSnack key={n} />)
+        // ) : (
         snacks.map((snack) =>
         (
           <div key={snack.id} className='snack'>
@@ -29,7 +30,8 @@ export function Snacks({ snacks }: SnacksProps) {
             </div>
           </div>
         ))
-      )}
+        // )
+      }
     </Container>
   )
 }
