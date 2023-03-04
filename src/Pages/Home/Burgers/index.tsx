@@ -10,7 +10,7 @@ export default function Burgers() {
   return (
     <>
       <Head title="Hambúrgueres" description="Nossos melhores burguers" />
-      <SnackTitle>Humbúrgueres</SnackTitle>
+      <SnackTitle>Hambúrgueres</SnackTitle>
       <Snacks snacks={burgers}></Snacks>
     </>
   )
